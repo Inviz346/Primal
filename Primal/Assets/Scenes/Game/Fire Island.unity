@@ -686,8 +686,13 @@ MonoBehaviour:
     m_Bits: 64
   moveSpeed: 7
   rotationSpeed: 7
+  gravity: -29.43
   playerHeight: 2
   groundDrag: 5
+  jumpForce: 15
+  jumpCooldown: 0.2
+  airMultiplier: 0.4
+  jumpKey: 32
 --- !u!1 &1199936023
 GameObject:
   m_ObjectHideFlags: 0
